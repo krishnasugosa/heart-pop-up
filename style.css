@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(6, 2, 36);
+}
+
+.section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#Btn{
+    width: 30vh;
+    height: 5vh;
+}
+
+#Btn:hover{
+    box-shadow: 10px 10px 0px pink;
+    transition: 1s ease-in-out;
+ 
+}
+
+.style{
+   margin: auto;
+   margin-top: 30vh;
+    background-image:url("hati.png");
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    animation: animate 3s infinite forwards;
+}
+
+@keyframes animate{
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 1.2;
+    }
+    0%{
+        scale: 1;
+    }
+}
